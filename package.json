@@ -1,6 +1,6 @@
 {
   "name": "hello",
-  "homepage": "https://icy-tree-0880d5610.3.azurestaticapps.net/webapp",
+  "homepage": "https://icy-tree-0880d5610.3.azurestaticapps.net/webapp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
