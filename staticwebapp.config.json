@@ -1,4 +1,12 @@
+
 {
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+     "routes": [
+     {
      "route": "/webapp/*",
      "rewrite": "/*"
+     }
+     ]
 }
