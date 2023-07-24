@@ -5,5 +5,11 @@
     ".json": "text/json",
     ".css": "text/css",
     ".js": "text/javascript"
-  }
+  },
+    "routes": [
+     {
+     "route": "/webapp/*",
+     "rewrite": "/*"
+     }
+     ]
 }
