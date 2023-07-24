@@ -20,8 +20,17 @@
      "rewrite": "/static/js/2.43f2ee7e.chunk.js"
      },
      {
+     "route": "/webapp/static/js/main.2b0f58b5.chunk.js",
+     "rewrite": "/static/js/main.2b0f58b5.chunk.js"
+     },
+     {
      "route": "/webapp/manifest.json",
      "rewrite": "/manifest.json"
+     },
+     {
+     "route": "/webapp/logo192.png",
+     "rewrite": "/logo192.png"
      }
+        
      ]
 }
