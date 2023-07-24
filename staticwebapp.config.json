@@ -8,8 +8,8 @@
   },
     "routes": [
      {
-     "route": "/webapp/*",
-     "rewrite": "/*"
+     "route": "/webapp",
+     "rewrite": "/"
      }
      ]
 }
