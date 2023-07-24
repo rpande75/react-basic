@@ -12,8 +12,8 @@
      "rewrite": "/"
      },
      {
-     "route": "/webapp/static/*",
-     "rewrite": "/static/*"
+     "route": "/webapp/static/css/*",
+     "rewrite": "/static/css/*"
      }
      ]
 }
