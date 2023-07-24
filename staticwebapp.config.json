@@ -9,7 +9,7 @@
     "routes": [
      {
      "route": "/webapp/*",
-     "rewrite": "/*"
+     "rewrite": "/webapp/*"
      }
      ]
 }
