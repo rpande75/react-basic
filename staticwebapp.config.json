@@ -12,8 +12,8 @@
      "rewrite": "/"
      },
      {
-     "route": "/webapp/static/css/*",
-     "rewrite": "/static/css/*"
+     "route": "/webapp/static/css/main.d498bfb3.chunk.css",
+     "rewrite": "/static/css/main.d498bfb3.chunk.css"
      }
      ]
 }
