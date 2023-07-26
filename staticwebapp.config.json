@@ -9,11 +9,17 @@
     "routes": [
      {
      "route": "/webapp",
-     "rewrite": "/"
+     "rewrite": "/",
+         "headers": {
+                "Cache-Control": "no-store"
+            }
      },
      {
      "route": "/webapp/static/css/main.d498bfb3.chunk.css",
-     "rewrite": "/static/css/main.d498bfb3.chunk.css"
+     "rewrite": "/static/css/main.d498bfb3.chunk.css",
+         "headers": {
+                "Cache-Control": "no-store"
+            }
      },
      {
      "route": "/webapp/static/js/2.43f2ee7e.chunk.js",
