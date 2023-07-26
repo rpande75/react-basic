@@ -32,5 +32,8 @@
      "rewrite": "/logo192.png"
      }
         
-     ]
+     ],
+    "networking": {
+      "allowedIpRanges": ["AzureFrontDoor.Backend"]
+    }
 }
