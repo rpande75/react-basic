@@ -2,51 +2,45 @@
 {
     
     "mimeTypes": {
-    ".json": "text/json",
-    ".css": "text/css",
-    ".js": "text/javascript"
-  },
+        ".json": "text/json",
+        ".css": "text/css",
+        ".js": "text/javascript"
+     },
     "routes": [
      {
-     "route": "/webapp",
-     "rewrite": "/",
-         "headers": {
-                "Cache-Control": "no-store"
-            }
+         "route": "/webapp",
+         "rewrite": "/",
      },
      {
-     "route": "/webapp/static/css/main.d498bfb3.chunk.css",
-     "rewrite": "/static/css/main.d498bfb3.chunk.css",
-         "headers": {
-                "Cache-Control": "no-store"
-            }
+         "route": "/webapp/static/css/main.d498bfb3.chunk.css",
+         "rewrite": "/static/css/main.d498bfb3.chunk.css"
      },
      {
-     "route": "/webapp/static/js/2.43f2ee7e.chunk.js",
-     "rewrite": "/static/js/2.43f2ee7e.chunk.js"
+         "route": "/webapp/static/js/2.43f2ee7e.chunk.js",
+         "rewrite": "/static/js/2.43f2ee7e.chunk.js"
      },
      {
-     "route": "/webapp/static/js/main.2b0f58b5.chunk.js",
-     "rewrite": "/static/js/main.2b0f58b5.chunk.js"
+         "route": "/webapp/static/js/main.2b0f58b5.chunk.js",
+         "rewrite": "/static/js/main.2b0f58b5.chunk.js"
      },
      {
-     "route": "/webapp/manifest.json",
-     "rewrite": "/manifest.json"
+         "route": "/webapp/manifest.json",
+         "rewrite": "/manifest.json"
      },
      {
-     "route": "/webapp/logo192.png",
-     "rewrite": "/logo192.png"
+         "route": "/webapp/logo192.png",
+         "rewrite": "/logo192.png"
      }
      ],
     "networking": {
-      "allowedIpRanges": ["AzureFrontDoor.Backend"]
+          "allowedIpRanges": ["AzureFrontDoor.Backend"]
     },
     "forwardingGateway": {
-      "requiredHeaders": {
-        "X-Azure-FDID" : "5cabf0c0-e888-4bce-bf07-f1e48e95ee55"
-      },
-      "allowedForwardedHosts": [
-        "rp-fd-emc5c6e3fwbka8h0.z01.azurefd.net"
-      ]
+          "requiredHeaders": {
+            "X-Azure-FDID" : "5cabf0c0-e888-4bce-bf07-f1e48e95ee55"
+          },
+          "allowedForwardedHosts": [
+            "rp-fd-emc5c6e3fwbka8h0.z01.azurefd.net"
+          ]
     }
 }
